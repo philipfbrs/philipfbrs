@@ -103,39 +103,59 @@ export const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
+<<<<<<< HEAD
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.facebook.com/profile.php?id=100076491585001"
               target="_blank"
               rel="noopener noreferrer" 
+=======
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://www.facebook.com/profile.php?id=100076491585001' target="_blank"
+>>>>>>> e22ef53b1223696c1a2a508aa7a76794a10dde71
             >
               Facebook <FaFacebook size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-400">
             <a
+<<<<<<< HEAD
               className="flex justify-between items-center w-full text-gray-300"
               href="https://twitter.com/philipfabros27"
               target="_blank"
               rel="noopener noreferrer" 
+=======
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://twitter.com/philipfabros27' target="_blank"
+>>>>>>> e22ef53b1223696c1a2a508aa7a76794a10dde71
             >
               Twitter <FaTwitter size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600">
             <a
+<<<<<<< HEAD
               className="flex justify-between items-center w-full text-gray-300"
               href="https://mail.google.com/mail/u/1/#search/philipfbrs%40gmail.com"
               target="_blank"
               rel="noopener noreferrer" 
+=======
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://mail.google.com/mail/u/1/#search/philipfbrs%40gmail.com' target="_blank"
+>>>>>>> e22ef53b1223696c1a2a508aa7a76794a10dde71
             >
               Email <FaGoogle size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-500">
             <a
+<<<<<<< HEAD
               className="flex justify-between items-center w-full text-gray-300"
               href="/My_Resume.pdf"
               download
+=======
+              className='flex justify-between items-center w-full text-gray-300'
+              href='./My_Resume.pdf' download
+>>>>>>> e22ef53b1223696c1a2a508aa7a76794a10dde71
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
