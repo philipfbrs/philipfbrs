@@ -2,8 +2,8 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll/modules";
 
-export const Main = () => {
-  
+export const Main = (props) => {
+  const { nav, handleClick } = props;
   return (
     <div name="home" className="w-full h-screen bg-slate-900">
       {/* Container */}
@@ -22,19 +22,15 @@ export const Main = () => {
           number of technical projects and assignments.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-500 hover:border-blue-500">
-            View Work
-            <Link
-                  to="skills"
-                  smooth={true}
-                  duration={500}
-                ></Link>
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3 ">
-             
-              </HiArrowNarrowRight>
-            </span>
-          </button>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-500 hover:border-blue-500">
+              {" "}
+              View Work
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3 "></HiArrowNarrowRight>
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
