@@ -126,7 +126,7 @@ export const Navbar = (props) => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://mail.google.com/mail/u/1/#search/philipfbrs%40gmail.com"
+              href="https://github.com/philipfbrs"
               target="_blank"
               rel="noopener noreferrer" 
             >
