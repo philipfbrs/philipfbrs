@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import {
+  FaGitlab,
   FaBars,
   FaTimes,
+  FaGithub,
   FaTwitter,
   FaGoogle,
   FaLinkedin,
@@ -104,34 +106,34 @@ export const Navbar = (props) => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.facebook.com/profile.php?id=100076491585001"
+              href="https://www.linkedin.com/in/philip-william-fabros-306628238/"
               target="_blank"
               rel="noopener noreferrer" 
             >
-              Facebook <FaFacebook size={30} />
+              Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-400">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-indigo-800">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://twitter.com/philipfabros27"
+              href="https://gitlab.com/philipfbros"
               target="_blank"
               rel="noopener noreferrer" 
             >
-              Twitter <FaTwitter size={30} />
+              Gitlab <FaGitlab size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://mail.google.com/mail/u/1/#search/philipfbrs%40gmail.com"
               target="_blank"
               rel="noopener noreferrer" 
             >
-              Email <FaGoogle size={30} />
+              Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-500">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-700">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="/My_Resume.pdf"
