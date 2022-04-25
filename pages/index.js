@@ -8,14 +8,14 @@ import { useState } from "react";
 
 const Home = () => {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
-  const handleClick2 = () => setNav(nav);
+  const handleNav = () => setNav(!nav);
+  const handleNavTrue = () => setNav(nav);
   return (
     <div> 
     <Navbar nav={nav}
-    handleClick={handleClick}/>
+    handleClick={handleNav}/>
     <Main nav={nav}
-    handleClick={handleClick2}/>
+    handleClick={handleNavTrue}/>
     <About />
     <Skills />
     <Work />

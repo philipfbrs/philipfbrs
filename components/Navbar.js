@@ -14,7 +14,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 export const Navbar = (props) => {
-  const {nav,setNav,handleClick} = props
+  const {nav,handleClick} = props
 
 
   return (
